@@ -29,5 +29,3 @@ npm run dev
 
 ## Build
 npm run build
-Interactive digital marketing and PR agency platform built with Next.js, TypeScript and Tailwind
->>>>>>> bab099754a61c1d16e3ccd81c4aa218823e7b57d
