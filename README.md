@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# VibenVoice
 
 Modern, premium agency website built with Next.js App Router, TypeScript, TailwindCSS, and Framer Motion.
@@ -43,3 +44,7 @@ npm run dev
 npm run lint
 npm run build
 ```
+=======
+# Vibe-n-Voice
+Interactive digital marketing and PR agency platform built with Next.js, TypeScript and Tailwind
+>>>>>>> bab099754a61c1d16e3ccd81c4aa218823e7b57d
