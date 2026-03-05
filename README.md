@@ -1,6 +1,6 @@
 # Vibe n Voice
 
-Modern, premium agency website built with Next.js App Router, TypeScript, TailwindCSS, and Framer Motion.
+Modern, premium agency website built with Next.js, TypeScript, TailwindCSS, and Framer Motion.
 
 ## Stack
 - Next.js
@@ -9,7 +9,14 @@ Modern, premium agency website built with Next.js App Router, TypeScript, Tailwi
 - Framer Motion
 
 ## Pages
+<<<<<<< HEAD
 - `/` Home
+=======
+- /
+- /services
+- /contact
+- /book-strategy-call
+>>>>>>> 685db347e747ae7837b3c1d39699cfa9e63d25e0
 
 ## Core UI Components
 - components/Navbar.tsx
@@ -21,6 +28,14 @@ Modern, premium agency website built with Next.js App Router, TypeScript, Tailwi
 
 ## Run Locally
 
+<<<<<<< HEAD
 ```bash
 npm install
 npm run dev
+=======
+npm install  
+npm run dev
+
+## Build
+npm run build
+>>>>>>> 685db347e747ae7837b3c1d39699cfa9e63d25e0
