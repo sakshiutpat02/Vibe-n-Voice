@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 80%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: clip;
+  line-height: 1.55;
+  letter-spacing: 0;
+  background: #fafafa;
+}
+
+section,
+article,
+div,
+p,
+h1,
+h2,
+h3 {
+  overflow: visible;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.dark .glass-card {
+  background: rgba(15, 23, 42, 0.42);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #6366f1 0%, #d946ef 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.typeform-container {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 16px;
+}
+
+.typeform-container [data-tf-live] {
+  min-height: 260px;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .typeform-container [data-tf-live] {
+    min-height: 220px;
+  }
+}
