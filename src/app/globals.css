@@ -10,6 +10,10 @@
   color-scheme: dark;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   @apply bg-background-light text-slate-800 antialiased dark:bg-background-dark dark:text-slate-100;
@@ -19,7 +23,8 @@ body {
 
 body {
   @apply font-body;
-  background-image: radial-gradient(circle at 85% -10%, rgba(217, 70, 239, 0.08), transparent 42%),
+  background-image:
+    radial-gradient(circle at 85% -10%, rgba(217, 70, 239, 0.08), transparent 42%),
     radial-gradient(circle at -10% 10%, rgba(99, 102, 241, 0.1), transparent 38%);
   min-height: 100vh;
 }
@@ -38,6 +43,7 @@ body {
 
 .gradient-text {
   background: linear-gradient(135deg, #6366f1 0%, #d946ef 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

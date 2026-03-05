@@ -2,7 +2,8 @@
 import { Inter, Syne } from "next/font/google";
 import type { ReactNode } from "react";
 
-import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/layout/Footer";
+import { Navbar } from "@/components/layout/Navbar";
 import "./globals.css";
 
 const inter = Inter({
@@ -40,9 +41,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
       <body className={`${inter.variable} ${syne.variable} font-body`}>
         <Navbar />
         <main>{children}</main>
-        <footer className="border-t border-slate-200/70 py-5 text-center text-sm text-slate-500 dark:border-slate-800 dark:text-slate-400">
-          © VibenVoice, 2026
-        </footer>
+        <Footer />
       </body>
     </html>
   );

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Script from "next/script";
 import { useState } from "react";
 
-import { Reveal } from "@/components/Reveal";
+import { Reveal } from "@/components/ui/Reveal";
 
 export const CTASection = () => {
   const [showForm, setShowForm] = useState(false);
